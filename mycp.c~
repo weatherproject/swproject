@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		printf("Error!!! \n");
 	}
 	
-	fd = open(argv[1],O_RDONLY);
+	fd = open(agrv[1],O_RDONLY);
 	fd_copy = open(argv[2],O_WRONLY | O_CREAT | O_APPEND,0666);
 
 	while(1)
