@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 			break;
 	}
 	
-	lstat(argv[1],&sb);
+	stat(argv[1],&sb);
 	chmod(argv[2],sb.st_mode);
 
 	close(fd);
