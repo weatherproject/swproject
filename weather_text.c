@@ -5,7 +5,7 @@
 void print_node(xmlNode* start, int depth)
 {
 	xmlNode* node = NULL;
-
+	xmlNode* str=0;
 	for(node = start; node; node = node->next)
 	{
 		if(node->type == XML_TEXT_NODE)
@@ -13,7 +13,9 @@ void print_node(xmlNode* start, int depth)
 			int i;
 			for(i=0; i<depth; i++)
 				printf("   ");
-			printf("%s\n",node->name);
+			str = xmlNodeGetContent(node);
+			//printf("%s\n",node->name);
+			printf("%s\n",str);
 		}
 		print_node(node->children, depth+1);
 	}
