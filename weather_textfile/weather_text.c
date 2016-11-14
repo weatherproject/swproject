@@ -15,7 +15,7 @@ void print_node(xmlNode* start, int depth)
 				printf("   ");
 			str = xmlNodeGetContent(node);
 			//printf("%s\n",node->name);
-			printf("%c\n",str);
+			printf("%s\n",str);
 		}
 		print_node(node->children, depth+1);
 	}
