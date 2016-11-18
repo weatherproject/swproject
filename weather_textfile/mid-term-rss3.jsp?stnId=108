@@ -6,18 +6,18 @@
 <description>기상청 날씨 웹서비스</description>
 <language>ko</language>
 <generator>기상청</generator>
-<pubDate>2016년 11월 14일 (월)요일 18:00</pubDate>
+<pubDate>2016년 11월 18일 (금)요일 06:00</pubDate>
  <item>
 <author>기상청</author>
 <category>육상중기예보</category>
-<title>전국 육상 중기예보 - 2016년 11월 14일 (월)요일 18:00 발표</title>
+<title>전국 육상 중기예보 - 2016년 11월 18일 (금)요일 06:00 발표</title>
 <link>http://www.kma.go.kr/weather/forecast/mid-term_01.jsp</link>
 <guid>http://www.kma.go.kr/weather/forecast/mid-term_01.jsp</guid>
 <description>
 	<header>
 		<title>전국 육상중기예보</title>
-		<tm>201611141800</tm>
-		<wf><![CDATA[기압골의 영향으로 18일 남부지방(경북 제외)에서 비가 시작되어, 19일은 전국으로 확대되겠고, 21일은 남부지방에 비가 오겠습니다. 또한, 동풍의 영향으로 21~22일 강원영동에 비 또는 눈이 오겠습니다. 그 밖의 날은 고기압의 영향으로 대체로 맑은 날이 많겠습니다.<br />기온은 평년(최저기온: -4~9도, 최고기온: 8~15도)보다 높겠으나, 후반에는 조금 낮겠습니다.<br />강수량은 평년(0~3mm)보다 조금 많겠습니다.]]></wf>
+		<tm>201611180600</tm>
+		<wf><![CDATA[이번 예보기간에는 고기압의 가장자리에 들어 가끔 구름이 많겠습니다. 한편, 동풍의 영향으로 22~23일은 강원영동에 비 또는 눈이 오겠습니다. <br />기온은 평년(최저기온: -5~8도, 최고기온: 7~15도)보다 전반에는 높겠으나, 후반에는 낮겠습니다.<br />강수량은 평년(1~4mm)보다 적겠으나, 강원영동은 많겠습니다.<br /><br />* 대륙고기압이 확장하면서 23~25일에는 바람이 강하게 불고, 기온이 낮아져 춥겠으니, 건강관리에 유의하기 바랍니다. 또한, 22~24일은 해상에서도 바람이 매우 강하게 불고, 물결이 매우 높게 일겠으니, 앞으로 발표되는 기상정보를 참고하기 바랍니다.]]></wf>
 	</header>
 	<body>
 				
@@ -28,90 +28,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>구름조금</wf>
 					<tmn>5</tmn>
-					<tmx>11</tmx>
+					<tmx>13</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -119,17 +39,27 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>구름조금</wf>
 					<tmn>5</tmn>
-					<tmx>11</tmx>
+					<tmx>13</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>3</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
@@ -137,10 +67,60 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-1</tmn>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -148,10 +128,30 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>-1</tmn>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
 					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -164,90 +164,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>7</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>구름조금</wf>
 					<tmn>6</tmn>
-					<tmx>10</tmx>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -255,27 +175,97 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>10</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>4</tmn>
-					<tmx>7</tmx>
+					<tmn>6</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>4</tmn>
+					<tmx>6</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>4</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
 					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>0</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
@@ -284,7 +274,17 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>0</tmn>
 					<tmx>7</tmx>
@@ -300,90 +300,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>구름조금</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -391,17 +311,27 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>구름조금</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>3</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
@@ -409,7 +339,7 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-1</tmn>
@@ -419,8 +349,78 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>-1</tmn>
 					<tmx>7</tmx>
@@ -436,90 +436,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>2</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>15</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>3</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
+					<wf>구름조금</wf>
+					<tmn>1</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -527,28 +447,98 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
+					<wf>구름조금</wf>
+					<tmn>1</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>-1</tmn>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>7</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-3</tmn>
+					<tmn>-4</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-5</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-5</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-5</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-5</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -556,10 +546,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>-3</tmn>
-					<tmx>8</tmx>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -574,90 +574,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>3</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>구름조금</wf>
 					<tmn>2</tmn>
-					<tmx>9</tmx>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -665,27 +585,37 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>구름조금</wf>
 					<tmn>2</tmn>
-					<tmx>9</tmx>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>0</tmn>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>6</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름조금</wf>
 					<tmn>-3</tmn>
 					<tmx>5</tmx>
 					<reliability>보통</reliability>
@@ -693,11 +623,81 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-24 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>-2</tmn>
 					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -710,90 +710,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
+					<wf>구름조금</wf>
+					<tmn>3</tmn>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -801,28 +721,88 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
+					<tmn>3</tmn>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>6</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -830,10 +810,30 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>-2</tmn>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
 					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -848,119 +848,109 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>9</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>15</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>10</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>12</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>12</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>10</tmn>
+					<tmn>6</tmn>
 					<tmx>12</tmx>
-					<reliability>낮음</reliability>
+					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>10</tmn>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
 					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>9</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>흐리고 눈/비</wf>
-					<tmn>8</tmn>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>6</tmn>
 					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>흐리고 비/눈</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>흐리고 비/눈</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>2</tmn>
+					<tmx>7</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -968,10 +958,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -986,90 +986,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>17</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
+					<wf>구름조금</wf>
+					<tmn>4</tmn>
+					<tmx>14</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1078,27 +998,87 @@
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
+					<tmn>4</tmn>
+					<tmx>14</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>3</tmn>
-					<tmx>8</tmx>
+					<tmx>7</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1106,10 +1086,30 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>-1</tmn>
-					<tmx>7</tmx>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1124,89 +1124,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>10</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
+					<wf>구름조금</wf>
+					<tmn>4</tmn>
 					<tmx>13</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1216,27 +1136,97 @@
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>6</tmn>
+					<tmn>4</tmn>
 					<tmx>13</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>3</tmn>
-					<tmx>9</tmx>
+					<tmx>8</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>0</tmn>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1244,10 +1234,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
+					<tmn>-1</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1260,89 +1260,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<wf>구름조금</wf>
+					<tmn>3</tmn>
 					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1352,27 +1272,97 @@
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<tmn>3</tmn>
 					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>3</tmn>
-					<tmx>8</tmx>
+					<tmx>7</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>-1</tmn>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1380,10 +1370,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
+					<tmn>-2</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1396,89 +1396,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<wf>구름조금</wf>
+					<tmn>3</tmn>
 					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1488,27 +1408,97 @@
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<tmn>3</tmn>
 					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>3</tmn>
-					<tmx>8</tmx>
+					<tmx>7</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>-1</tmn>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1516,10 +1506,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>6</tmx>
+					<tmn>-2</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1534,90 +1534,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>4</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>12</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>12</tmn>
-					<tmx>17</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>11</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>11</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
+					<wf>구름조금</wf>
+					<tmn>6</tmn>
+					<tmx>15</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1626,17 +1546,97 @@
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
+					<tmn>6</tmn>
+					<tmx>15</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>5</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2016-11-22 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>3</tmn>
+					<tmn>-1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
 					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1644,20 +1644,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>1</tmn>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1670,90 +1670,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>12</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>12</tmn>
-					<tmx>16</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>11</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>11</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>13</tmx>
+					<wf>구름조금</wf>
+					<tmn>6</tmn>
+					<tmx>15</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1762,17 +1682,97 @@
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>13</tmx>
+					<tmn>6</tmn>
+					<tmx>15</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>5</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2016-11-22 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>3</tmn>
+					<tmn>1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1780,20 +1780,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>2</tmn>
+					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1808,90 +1808,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>10</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>10</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
+					<wf>구름조금</wf>
+					<tmn>6</tmn>
+					<tmx>17</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1899,39 +1819,119 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>17</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>4</tmn>
+					<tmn>6</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>6</tmx>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-26 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>7</tmx>
+					<tmn>1</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>2</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1944,90 +1944,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>12</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>12</tmn>
-					<tmx>16</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>11</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>11</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
+					<wf>구름조금</wf>
+					<tmn>7</tmn>
+					<tmx>18</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2035,39 +1955,119 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
+					<wf>구름많음</wf>
+					<tmn>7</tmn>
+					<tmx>18</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>4</tmn>
+					<tmn>7</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>7</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
+					<tmn>2</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-26 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
+					<tmn>2</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>4</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>4</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2080,90 +2080,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>10</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>13</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>13</tmn>
-					<tmx>16</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>12</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>12</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
+					<wf>구름조금</wf>
+					<tmn>10</tmn>
+					<tmx>17</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2171,18 +2091,98 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
+					<wf>구름많음</wf>
+					<tmn>10</tmn>
+					<tmx>17</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>10</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>10</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-22 00:00</tmEf>
+					<tmEf>2016-11-26 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<tmn>3</tmn>
 					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2190,20 +2190,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
+					<tmEf>2016-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
+					<tmn>5</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>8</tmx>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>6</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2218,89 +2218,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>17</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>10</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>10</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
+					<wf>구름조금</wf>
+					<tmn>6</tmn>
 					<tmx>16</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2309,27 +2229,107 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
 					<tmx>16</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>6</tmn>
-					<tmx>11</tmx>
+					<tmx>14</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>14</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>9</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>2</tmn>
 					<tmx>9</tmx>
 					<reliability>보통</reliability>
@@ -2338,10 +2338,10 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
-					<wf>구름많음</wf>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
 					<tmn>1</tmn>
-					<tmx>7</tmx>
+					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2354,90 +2354,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>2</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>2</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>16</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>6</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>14</tmx>
+					<wf>구름조금</wf>
+					<tmn>3</tmn>
+					<tmx>15</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2445,27 +2365,107 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>14</tmx>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>15</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-1</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
@@ -2474,10 +2474,10 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
-					<wf>구름많음</wf>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
 					<tmn>-2</tmn>
-					<tmx>6</tmx>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2490,89 +2490,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>18</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>13</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>13</tmn>
-					<tmx>18</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>12</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>12</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>11</tmn>
+					<wf>구름조금</wf>
+					<tmn>9</tmn>
 					<tmx>17</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2581,27 +2501,37 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
 					<tmx>17</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>9</tmn>
-					<tmx>12</tmx>
+					<tmx>14</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>5</tmn>
 					<tmx>11</tmx>
 					<reliability>보통</reliability>
@@ -2609,11 +2539,81 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>11</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-24 00:00</tmEf>
 					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>4</tmn>
-					<tmx>9</tmx>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>4</tmn>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2628,89 +2628,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>10</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>10</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>11</tmn>
-					<tmx>19</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>19</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>14</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>14</tmn>
-					<tmx>17</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>13</tmn>
-					<tmx>19</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>13</tmn>
-					<tmx>19</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>12</tmn>
+					<wf>구름조금</wf>
+					<tmn>11</tmn>
 					<tmx>18</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2719,15 +2639,15 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>12</tmn>
+					<wf>구름조금</wf>
+					<tmn>11</tmn>
 					<tmx>18</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>10</tmn>
@@ -2737,10 +2657,80 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>10</tmn>
+					<tmx>14</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>5</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>4</tmn>
 					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2748,10 +2738,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
+					<tmn>6</tmn>
+					<tmx>13</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>6</tmn>
+					<tmx>13</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2764,90 +2764,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>7</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>7</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>12</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>12</tmn>
-					<tmx>17</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>11</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
+					<wf>구름조금</wf>
+					<tmn>8</tmn>
+					<tmx>17</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2855,15 +2775,15 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
+					<wf>구름조금</wf>
+					<tmn>8</tmn>
+					<tmx>17</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>8</tmn>
@@ -2873,21 +2793,101 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
+					<tmx>13</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>2</tmn>
-					<tmx>9</tmx>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-26 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>1</tmn>
-					<tmx>8</tmx>
+					<tmx>11</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2900,90 +2900,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>8</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>8</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>13</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>13</tmn>
-					<tmx>17</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>12</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>12</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>10</tmn>
-					<tmx>17</tmx>
+					<wf>구름조금</wf>
+					<tmn>9</tmn>
+					<tmx>18</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2991,15 +2911,15 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>17</tmx>
+					<wf>구름조금</wf>
+					<tmn>9</tmn>
+					<tmx>18</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>9</tmn>
@@ -3009,21 +2929,101 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>13</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>3</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-26 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
+					<tmn>3</tmn>
+					<tmx>11</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>13</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>4</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -3038,119 +3038,109 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>13</tmn>
-					<tmx>18</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>13</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>13</tmn>
-					<tmx>19</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>13</tmn>
-					<tmx>19</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>16</tmn>
-					<tmx>19</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>16</tmn>
-					<tmx>19</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>14</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>14</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>12</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
+					<wf>구름많음</wf>
+					<tmn>13</tmn>
+					<tmx>18</tmx>
+					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>12</tmn>
-					<tmx>17</tmx>
-					<reliability>보통</reliability>
+					<wf>구름많음</wf>
+					<tmn>13</tmn>
+					<tmx>18</tmx>
+					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>11</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
+					<tmn>13</tmn>
+					<tmx>14</tmx>
+					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>13</tmn>
+					<tmx>14</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>9</tmn>
+					<tmn>10</tmn>
+					<tmx>12</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>10</tmn>
+					<tmx>12</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
+					<tmx>11</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
+					<tmx>11</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>8</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>8</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
 					<tmx>13</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -3158,10 +3148,20 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>9</tmn>
-					<tmx>13</tmx>
+					<tmx>14</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-28 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -3174,118 +3174,118 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-11-17 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>14</tmn>
-					<tmx>20</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-17 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>14</tmn>
-					<tmx>20</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>13</tmn>
-					<tmx>20</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-18 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>13</tmn>
-					<tmx>20</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>17</tmn>
-					<tmx>20</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-19 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>17</tmn>
-					<tmx>20</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>15</tmn>
-					<tmx>20</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-11-20 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>15</tmn>
-					<tmx>20</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-11-21 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>13</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
+					<wf>구름많음</wf>
+					<tmn>15</tmn>
+					<tmx>20</tmx>
+					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-11-21 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>13</tmn>
-					<tmx>18</tmx>
-					<reliability>보통</reliability>
+					<wf>구름많음</wf>
+					<tmn>15</tmn>
+					<tmx>20</tmx>
+					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-11-22 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>12</tmn>
-					<tmx>15</tmx>
-					<reliability>보통</reliability>
+					<tmn>14</tmn>
+					<tmx>18</tmx>
+					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
+					<tmEf>2016-11-22 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>14</tmn>
+					<tmx>18</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
 					<tmEf>2016-11-23 00:00</tmEf>
 					<wf>구름많음</wf>
+					<tmn>11</tmn>
+					<tmx>14</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-23 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>11</tmn>
+					<tmx>14</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>13</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-24 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>13</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>8</tmn>
+					<tmx>13</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-11-25 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>8</tmn>
+					<tmx>13</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-26 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>10</tmn>
 					<tmx>15</tmx>
 					<reliability>보통</reliability>
@@ -3294,10 +3294,10 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-11-24 00:00</tmEf>
+					<tmEf>2016-11-28 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>10</tmn>
-					<tmx>15</tmx>
+					<tmx>14</tmx>
 					<reliability>보통</reliability>
 				</data>
 
