@@ -11,7 +11,6 @@ struct city{
 	char condition[10];
 };
 
-
 int main()
 {
 	//char *c=0;
