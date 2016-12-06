@@ -22,8 +22,8 @@ int main()
 	char city_main[100];
 	int i=0;
 
-	
-	FILE *fp = fopen("seoul.txt","rt");
+	int flag=0;	
+	FILE *fp = fopen("weather_text.txt","rt");
 
 	if(fp == NULL)
 	{
@@ -31,65 +31,67 @@ int main()
 		return 0;
 	}
 
-	 
+
 	while(1)
 	{
-		
-		fgets(str,500,fp);
-		//fscanf(fp,"%s \n",&str);
+
+		//fgets(str,500,fp);
+		fscanf(fp,"%s \n",&str);
 		printf("%s\n",str);
 
 		//strcpy(str,"");
-		
-		
-		i++;
-		if(i>5)
+		if(strstr(str,"서울ㆍ인천ㆍ경기도"))
+		{
+			flag=1;
+			strcpy(city_name,str);
 			break;
+		}
 	}
-	
 
 	while(feof(fp) ==0)
 	{
 		if(strstr(city_name,"서울ㆍ인천ㆍ경기도"))
 		{
-			fscanf(fp,"%s \n",&str);
-			strcpy(city_main,str);
-			if(strstr(city_main,"서울"))
+			if(flag==1)
 			{
 				fscanf(fp,"%s \n",&str);
-				for(i=0; i<10; i++)
+				strcpy(city_main,str);
+				if(strstr(city_main,"서울"))
 				{
-					if(strstr(str,"A02"))									//중기날씨 5일
-					{
-						fscanf(fp,"%s \n",&A02[i].date);
-						fscanf(fp,"%s \n",&A02[i].time);
-						fgets(A02[i].weather,10,fp);
-						//fscanf(fp,"%s \n",&A02[i].weather);
-						fscanf(fp,"%d \n",&A02[i].temp);
-						fscanf(fp,"%d \n",&A02[i].temp_max);
-						fscanf(fp,"%s \n",&A02[i].condition);
-					}
 					fscanf(fp,"%s \n",&str);
-				}
-				for(i=0; i<3; i++)
-				{
-					if(strstr(str,"A01"))
+					for(i=0; i<10; i++)
 					{
-						fscanf(fp,"%s \n",&A01[i].date);
-						fscanf(fp,"%s \n",&A01[i].time);
-						fgets(A01[i].weather,10,fp);
-						//fscanf(fp,"%s \n",&A02[i].weather);
-						fscanf(fp,"%d \n",&A01[i].temp);
-						fscanf(fp,"%d \n",&A01[i].temp_max);
-						fscanf(fp,"%s \n",&A01[i].condition);
+						if(strstr(str,"A02"))									//중기날씨 5일
+						{
+							fscanf(fp,"%s \n",&A02[i].date);
+							fscanf(fp,"%s \n",&A02[i].time);
+							fgets(A02[i].weather,15,fp);
+							//fscanf(fp,"%s \n",&A02[i].weather);
+							fscanf(fp,"%d \n",&A02[i].temp);
+							fscanf(fp,"%d \n",&A02[i].temp_max);
+							fscanf(fp,"%s \n",&A02[i].condition);
+						}
+						fscanf(fp,"%s \n",&str);
 					}
-					fscanf(fp,"%s \n",&str);
-				}
-						
+					for(i=0; i<3; i++)
+					{
+						if(strstr(str,"A01"))
+						{
+							fscanf(fp,"%s \n",&A01[i].date);
+							fscanf(fp,"%s \n",&A01[i].time);
+							fgets(A01[i].weather,15,fp);
+							//fscanf(fp,"%s \n",&A02[i].weather);
+							fscanf(fp,"%d \n",&A01[i].temp);
+							fscanf(fp,"%d \n",&A01[i].temp_max);
+							fscanf(fp,"%s \n",&A01[i].condition);
+						}
+						fscanf(fp,"%s \n",&str);
+					}
+				}		
 			}
 		}
 	}
-	
+	printf("----------A1------------------\n");
 	fclose(fp);
 	for(i=0; i<10; i++)
 	{
