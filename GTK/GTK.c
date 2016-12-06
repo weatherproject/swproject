@@ -2,6 +2,37 @@
 #include <stdio.h>
 #include <gtk/gtk.h>
 
+//about option
+GtkWidget *hscale, *vscale;
+
+void cb_pos_menu_select( GtkWidget *item,GtkPositionType  pos )
+{
+   // Set the value position on both scale widgets 
+    gtk_scale_set_value_pos (GTK_SCALE (hscale), pos);
+    gtk_scale_set_value_pos (GTK_SCALE (vscale), pos);
+}
+
+void cb_update_menu_select( GtkWidget *item, GtkUpdateType  policy )
+{
+   //  Set the update policy for both scale widgets 
+    gtk_range_set_update_policy (GTK_RANGE (hscale), policy);
+    gtk_range_set_update_policy (GTK_RANGE (vscale), policy);
+}
+// Convenience functions 
+
+GtkWidget *make_menu_item (gchar *name, GCallback callback, gpointer data)
+{
+	GtkWidget *item;
+  
+	item = gtk_menu_item_new_with_label (name);
+	g_signal_connect (G_OBJECT (item), "activate",callback, (gpointer) data);
+	gtk_widget_show (item);
+
+	return item;
+}
+
+//
+
 void enter_callback( GtkWidget *widget,GtkWidget *entry )
 {
   gchar *entry_text;
@@ -34,20 +65,42 @@ int main( int   argc,char *argv[] )
     	GtkWidget *button;
 	GtkWidget *check;
 	GtkWidget *label;
+	GtkWidget *opt, *menu, *item;
 	gtk_init (&argc, &argv);
 
 	/* create a new window */
 	window = gtk_window_new(GTK_WINDOW_TOPLEVEL);//window가 바탕임 
-	gtk_widget_set_usize( GTK_WIDGET (window), 300, 200);//크기 
+	gtk_widget_set_usize( GTK_WIDGET (window), 400, 300);//크기 
 	gtk_window_set_title(GTK_WINDOW (window), "HOW'S THE WEATHER TODAY?");//제목 
 	gtk_signal_connect(GTK_OBJECT (window), "delete_event",(GtkSignalFunc) gtk_exit, NULL);//엑스 눌렀을때 나가라 
 	vbox = gtk_vbox_new (FALSE, 0);//vbox쓰겠다 
 	gtk_container_add (GTK_CONTAINER (window), vbox);//window에 vbox넣겠다 
-	gtk_widget_show (vbox);//vbox보여줘 
+	gtk_widget_show (vbox);//vbox보여줘
 	/*"city" label*/
 	label = gtk_label_new("도시");
 	gtk_box_pack_start(GTK_BOX(vbox),label,1,1,0);
-	gtk_widget_show(label);
+	gtk_widget_show(label); 
+	/*option bix*/
+
+	opt = gtk_option_menu_new ();//옵션 만들기 
+	menu = gtk_menu_new ();//메뉴만들기 
+
+	item = make_menu_item ("서울",G_CALLBACK (cb_pos_menu_select),GINT_TO_POINTER (GTK_POS_TOP));//분석필요 
+	gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);//위에서 만든걸 메뉴에 포함 
+  
+	item = make_menu_item ("인천", G_CALLBACK (cb_pos_menu_select),GINT_TO_POINTER (GTK_POS_BOTTOM));
+	gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);
+  
+	item = make_menu_item ("김포", G_CALLBACK (cb_pos_menu_select),GINT_TO_POINTER (GTK_POS_LEFT));
+	gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);
+  
+	item = make_menu_item ("강원", G_CALLBACK (cb_pos_menu_select),GINT_TO_POINTER (GTK_POS_RIGHT));
+	gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);
+  
+	gtk_option_menu_set_menu (GTK_OPTION_MENU (opt), menu);//메뉴를 옵션에 설정
+	gtk_box_pack_start (GTK_BOX (vbox), opt, TRUE, TRUE, 0);//박스1에 옵션 넣음 
+	gtk_widget_show (opt);//옵션 보여줘 
+
 	/* creat "city" enrtry*/ 
 	entry = gtk_entry_new_with_max_length (50);//entry가 텍스트 상자 
 	gtk_signal_connect(GTK_OBJECT(entry), "activate",GTK_SIGNAL_FUNC(enter_callback),entry);//entry가 enter_callback함수 쓰도록 
@@ -59,7 +112,27 @@ int main( int   argc,char *argv[] )
 	/*"day" label*/
 	label = gtk_label_new("몇일후");
 	gtk_box_pack_start(GTK_BOX(vbox),label,1,1,0);
-	gtk_widget_show(label); 
+	gtk_widget_show(label);
+	/*option bix*/
+
+	opt = gtk_option_menu_new ();//옵션 만들기 
+	menu = gtk_menu_new ();//메뉴만들기 
+
+	item = make_menu_item ("1일후",G_CALLBACK (cb_pos_menu_select),GINT_TO_POINTER (GTK_POS_TOP));//분석필요 
+	gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);//위에서 만든걸 메뉴에 포함 
+  
+	item = make_menu_item ("2일후", G_CALLBACK (cb_pos_menu_select),GINT_TO_POINTER (GTK_POS_BOTTOM));
+	gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);
+  
+	item = make_menu_item ("3일후", G_CALLBACK (cb_pos_menu_select),GINT_TO_POINTER (GTK_POS_LEFT));
+	gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);
+  
+	item = make_menu_item ("4일후", G_CALLBACK (cb_pos_menu_select),GINT_TO_POINTER (GTK_POS_RIGHT));
+	gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);
+  
+	gtk_option_menu_set_menu (GTK_OPTION_MENU (opt), menu);//메뉴를 옵션에 설정
+	gtk_box_pack_start (GTK_BOX (vbox), opt, TRUE, TRUE, 0);//박스1에 옵션 넣음 
+	gtk_widget_show (opt);//옵션 보여줘
 	/* creat "day" entry*/
 	entry = gtk_entry_new_with_max_length (50);//entry가 텍스트 상자 
 	gtk_signal_connect(GTK_OBJECT(entry), "activate",
@@ -67,7 +140,6 @@ int main( int   argc,char *argv[] )
 	gtk_entry_select_region (GTK_ENTRY (entry),0, GTK_ENTRY(entry)->text_length);//?
 	gtk_box_pack_start (GTK_BOX (vbox), entry, TRUE, TRUE, 0);//vbox에 entry를 pack
 	gtk_widget_show (entry);
-	//
 	/*creat hbox*/
 	hbox = gtk_hbox_new (FALSE, 0);
 	gtk_container_add (GTK_CONTAINER (vbox), hbox);
@@ -103,10 +175,13 @@ int main( int   argc,char *argv[] )
 	GTK_WIDGET_SET_FLAGS (button, GTK_CAN_DEFAULT);
 	gtk_widget_grab_default (button);
 	gtk_widget_show (button);
+
+
 	/*window come on*/    
 	gtk_widget_show(window);
 	/*end*/
 	gtk_main();
 	return(0);
 }
+
 
