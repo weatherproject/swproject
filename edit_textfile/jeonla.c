@@ -7,7 +7,7 @@ struct city jeonla[4][2][10]={0,};
 
 
 
-int main ()
+int changejeonla()
 {
 	char str[500]={0,};
 	char city_name[300];
