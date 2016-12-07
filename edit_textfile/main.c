@@ -39,8 +39,9 @@ int main()
 
 //	changekangwon();	
 //	changechungcheong();
-	changejeonla();
-	for(k=0; k<5; k++)
+//	changejeonla();
+	changegyeongsang();
+	for(k=0; k<6; k++)
 	{
 		printf("-----------A2시작-----------\n");
 		for(i=0; i<10; i++)
