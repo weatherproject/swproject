@@ -6,18 +6,18 @@
 <description>기상청 날씨 웹서비스</description>
 <language>ko</language>
 <generator>기상청</generator>
-<pubDate>2016년 12월 06일 (화)요일 06:00</pubDate>
+<pubDate>2016년 12월 07일 (수)요일 18:00</pubDate>
  <item>
 <author>기상청</author>
 <category>육상중기예보</category>
-<title>전국 육상 중기예보 - 2016년 12월 06일 (화)요일 06:00 발표</title>
+<title>전국 육상 중기예보 - 2016년 12월 07일 (수)요일 18:00 발표</title>
 <link>http://www.kma.go.kr/weather/forecast/mid-term_01.jsp</link>
 <guid>http://www.kma.go.kr/weather/forecast/mid-term_01.jsp</guid>
 <description>
 	<header>
 		<title>전국 육상중기예보</title>
-		<tm>201612060600</tm>
-		<wf><![CDATA[기압골의 영향으로 9일은 전국 대부분(경남과 제주도 제외) 지역에, 12일은 중부지방(강원영동 제외)에 비 또는 눈이 오겠습니다. 그 밖의 날은 고기압의 영향으로 대체로 맑은 날이 많겠습니다.<br />기온은 평년(최저기온: -9~6도, 최고기온: 3~12도)과 비슷하거나 조금 낮겠습니다.<br />강수량은 평년(0~2mm)보다 조금 많겠으나, 경남과 제주도는 적겠습니다.]]></wf>
+		<tm>201612071800</tm>
+		<wf><![CDATA[12일은 기압골의 영향으로 중부지방(강원영동 제외)에, 14일은 동풍의 영향으로 강원영동에 비 또는 눈이 오겠습니다.<br />그 밖의 날은 고기압의 영향으로 대체로 맑은 날이 많겠습니다.<br />기온은 평년(최저기온: -9~6도, 최고기온: 3~12도)과 비슷하거나 조금 낮겠습니다.<br />강수량은 평년(0~2mm)과 비슷하거나 조금 많겠으나, 남부지방과 제주도는 적겠습니다.]]></wf>
 	</header>
 	<body>
 				
@@ -25,26 +25,6 @@
 		<location wl_ver="3">
 				<province>서울ㆍ인천ㆍ경기도</province>
 				<city>서울</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 눈/비</wf>
-					<tmn>2</tmn>
-					<tmx>3</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>3</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
 				
 				<data>
 					<mode>A02</mode>
@@ -71,7 +51,7 @@
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
-					<tmx>4</tmx>
+					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -81,7 +61,7 @@
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
-					<tmx>4</tmx>
+					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -110,9 +90,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
+					<tmn>-1</tmn>
 					<tmx>3</tmx>
-					<reliability>보통</reliability>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -120,15 +100,25 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-2</tmn>
+					<tmn>-1</tmn>
 					<tmx>3</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>3</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
 					<tmx>3</tmx>
@@ -141,7 +131,7 @@
 					<tmEf>2016-12-15 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-6</tmn>
-					<tmx>4</tmx>
+					<tmx>3</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -150,8 +140,18 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-4</tmn>
+					<tmn>-6</tmn>
 					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>5</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -164,26 +164,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 눈/비</wf>
-					<tmn>3</tmn>
-					<tmx>3</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>3</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
@@ -246,9 +226,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>4</tmx>
-					<reliability>보통</reliability>
+					<tmn>0</tmn>
+					<tmx>3</tmx>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -256,15 +236,25 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-1</tmn>
-					<tmx>4</tmx>
+					<tmn>0</tmn>
+					<tmx>3</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>3</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
 					<tmx>3</tmx>
@@ -286,7 +276,17 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-3</tmn>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
 					<tmx>4</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -300,29 +300,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 눈/비</wf>
-					<tmn>2</tmn>
-					<tmx>3</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>3</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-5</tmn>
 					<tmx>3</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -332,7 +312,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-5</tmn>
 					<tmx>3</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -342,8 +322,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>4</tmx>
+					<tmn>-4</tmn>
+					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -352,8 +332,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>4</tmx>
+					<tmn>-4</tmn>
+					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -382,9 +362,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>4</tmx>
-					<reliability>보통</reliability>
+					<tmn>-1</tmn>
+					<tmx>3</tmx>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -392,18 +372,28 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-2</tmn>
-					<tmx>4</tmx>
+					<tmn>-1</tmn>
+					<tmx>3</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
-					<tmx>4</tmx>
+					<tmx>3</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>3</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -422,7 +412,17 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-4</tmn>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
 					<tmx>5</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -436,26 +436,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 눈/비</wf>
-					<tmn>0</tmn>
-					<tmx>2</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>2</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-9</tmn>
@@ -498,7 +478,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-4</tmn>
+					<tmn>-5</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -508,7 +488,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
 					<wf>흐리고 비/눈</wf>
-					<tmn>-4</tmn>
+					<tmn>-5</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -518,9 +498,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-5</tmn>
+					<tmn>-4</tmn>
 					<tmx>3</tmx>
-					<reliability>보통</reliability>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -528,15 +508,25 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-5</tmn>
+					<tmn>-4</tmn>
 					<tmx>3</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-8</tmn>
+					<tmx>3</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-8</tmn>
 					<tmx>3</tmx>
@@ -558,7 +548,17 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-7</tmn>
+					<tmn>-8</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-5</tmn>
 					<tmx>4</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -574,26 +574,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 눈/비</wf>
-					<tmn>0</tmn>
-					<tmx>3</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>3</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-8</tmn>
@@ -658,7 +638,7 @@
 					<wf>구름많음</wf>
 					<tmn>-3</tmn>
 					<tmx>2</tmx>
-					<reliability>보통</reliability>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -673,8 +653,18 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>2</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-6</tmn>
 					<tmx>2</tmx>
@@ -698,6 +688,16 @@
 					<wf>구름조금</wf>
 					<tmn>-5</tmn>
 					<tmx>3</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -710,30 +710,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 눈/비</wf>
-					<tmn>1</tmn>
-					<tmx>5</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>5</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-6</tmn>
-					<tmx>4</tmx>
+					<tmx>3</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -743,7 +723,7 @@
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-6</tmn>
-					<tmx>4</tmx>
+					<tmx>3</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -753,7 +733,7 @@
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
-					<tmx>4</tmx>
+					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -763,7 +743,7 @@
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
-					<tmx>4</tmx>
+					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -792,9 +772,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
+					<tmn>-1</tmn>
 					<tmx>5</tmx>
-					<reliability>보통</reliability>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -802,15 +782,25 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-2</tmn>
+					<tmn>-1</tmn>
 					<tmx>5</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
 					<tmx>4</tmx>
@@ -832,8 +822,18 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-5</tmn>
-					<tmx>3</tmx>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>5</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -848,30 +848,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>3</tmn>
-					<tmx>6</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>6</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-2</tmn>
-					<tmx>5</tmx>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -880,8 +860,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-2</tmn>
-					<tmx>5</tmx>
+					<tmn>-1</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -910,7 +890,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>1</tmn>
+					<tmn>2</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -919,8 +899,8 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
+					<wf>흐림</wf>
+					<tmn>2</tmn>
 					<tmx>8</tmx>
 					<reliability>낮음</reliability>
 				</data>
@@ -947,11 +927,21 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>0</tmn>
-					<tmx>4</tmx>
+					<tmx>3</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
+					<wf>흐리고 비/눈</wf>
+					<tmn>0</tmn>
+					<tmx>3</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -961,6 +951,16 @@
 					<tmEf>2016-12-15 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-1</tmn>
+					<tmx>3</tmx>
+					<reliability>낮음</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-16 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
 					<tmx>5</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -968,9 +968,9 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-12-16 00:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>-1</tmn>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -986,26 +986,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>2</tmn>
-					<tmx>5</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>5</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
@@ -1070,7 +1050,7 @@
 					<wf>구름많음</wf>
 					<tmn>-1</tmn>
 					<tmx>4</tmx>
-					<reliability>보통</reliability>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -1085,8 +1065,18 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-5</tmn>
+					<tmx>3</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
 					<tmx>3</tmx>
@@ -1098,7 +1088,7 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-5</tmn>
+					<tmn>-4</tmn>
 					<tmx>4</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1110,6 +1100,16 @@
 					<wf>구름조금</wf>
 					<tmn>-3</tmn>
 					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1124,30 +1124,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>3</tmn>
-					<tmx>5</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>5</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
-					<tmx>4</tmx>
+					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -1157,7 +1137,7 @@
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
-					<tmx>4</tmx>
+					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -1208,7 +1188,7 @@
 					<wf>구름많음</wf>
 					<tmn>-2</tmn>
 					<tmx>5</tmx>
-					<reliability>보통</reliability>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -1223,8 +1203,18 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
 					<tmx>4</tmx>
@@ -1246,8 +1236,18 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-3</tmn>
+					<tmn>-4</tmn>
 					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1257,26 +1257,6 @@
 		<location wl_ver="3">
 				<province>대전ㆍ세종ㆍ충청남도</province>
 				<city>서산</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>2</tmn>
-					<tmx>5</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>5</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
 				
 				<data>
 					<mode>A02</mode>
@@ -1344,7 +1324,7 @@
 					<wf>구름많음</wf>
 					<tmn>-2</tmn>
 					<tmx>4</tmx>
-					<reliability>보통</reliability>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -1359,8 +1339,18 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-3</tmn>
+					<tmx>3</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-3</tmn>
 					<tmx>3</tmx>
@@ -1382,7 +1372,17 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-3</tmn>
+					<tmn>-4</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
 					<tmx>5</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -1393,26 +1393,6 @@
 		<location wl_ver="3">
 				<province>대전ㆍ세종ㆍ충청남도</province>
 				<city>세종</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>2</tmn>
-					<tmx>5</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>5</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
 				
 				<data>
 					<mode>A02</mode>
@@ -1480,7 +1460,7 @@
 					<wf>구름많음</wf>
 					<tmn>-3</tmn>
 					<tmx>4</tmx>
-					<reliability>보통</reliability>
+					<reliability>낮음</reliability>
 				</data>
 
 				
@@ -1495,8 +1475,18 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
 					<tmx>4</tmx>
@@ -1518,8 +1508,18 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-4</tmn>
+					<tmn>-5</tmn>
 					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1534,26 +1534,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>8</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-2</tmn>
@@ -1605,7 +1585,7 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>흐림</wf>
 					<tmn>-1</tmn>
 					<tmx>9</tmx>
 					<reliability>낮음</reliability>
@@ -1633,8 +1613,18 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-3</tmn>
 					<tmx>6</tmx>
@@ -1647,7 +1637,7 @@
 					<tmEf>2016-12-15 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-3</tmn>
-					<tmx>7</tmx>
+					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1655,9 +1645,19 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>-2</tmn>
-					<tmx>8</tmx>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1670,26 +1670,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>3</tmn>
-					<tmx>7</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>7</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-1</tmn>
@@ -1741,7 +1721,7 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>흐림</wf>
 					<tmn>0</tmn>
 					<tmx>8</tmx>
 					<reliability>낮음</reliability>
@@ -1769,8 +1749,18 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-1</tmn>
 					<tmx>6</tmx>
@@ -1791,9 +1781,19 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>-1</tmn>
 					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>2</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1808,29 +1808,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>3</tmn>
-					<tmx>7</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>7</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-1</tmn>
+					<tmn>-2</tmn>
 					<tmx>7</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -1840,7 +1820,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-1</tmn>
+					<tmn>-2</tmn>
 					<tmx>7</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -1851,7 +1831,7 @@
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-2</tmn>
-					<tmx>7</tmx>
+					<tmx>8</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -1861,7 +1841,7 @@
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-2</tmn>
-					<tmx>7</tmx>
+					<tmx>8</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -1870,8 +1850,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-2</tmn>
-					<tmx>9</tmx>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1879,9 +1859,9 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>9</tmx>
+					<wf>흐림</wf>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
@@ -1891,7 +1871,7 @@
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>1</tmn>
-					<tmx>6</tmx>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -1901,14 +1881,24 @@
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2016-12-14 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-2</tmn>
 					<tmx>6</tmx>
@@ -1929,7 +1919,17 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
@@ -1944,29 +1944,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>4</tmn>
-					<tmx>8</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>8</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>1</tmn>
+					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -1976,7 +1956,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>1</tmn>
+					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -1986,7 +1966,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
+					<tmn>-1</tmn>
 					<tmx>8</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -1996,7 +1976,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
+					<tmn>-1</tmn>
 					<tmx>8</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2006,7 +1986,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-1</tmn>
+					<tmn>0</tmn>
 					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2015,8 +1995,8 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
+					<wf>흐림</wf>
+					<tmn>0</tmn>
 					<tmx>10</tmx>
 					<reliability>낮음</reliability>
 				</data>
@@ -2027,7 +2007,7 @@
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>2</tmn>
-					<tmx>7</tmx>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2037,14 +2017,24 @@
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>2</tmn>
-					<tmx>7</tmx>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-1</tmn>
 					<tmx>6</tmx>
@@ -2065,7 +2055,17 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>0</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
@@ -2080,29 +2080,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많고 비/눈</wf>
-					<tmn>5</tmn>
-					<tmx>9</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>9</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>2</tmn>
+					<tmn>1</tmn>
 					<tmx>9</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2112,7 +2092,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>2</tmn>
+					<tmn>1</tmn>
 					<tmx>9</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2142,8 +2122,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2151,9 +2131,9 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
+					<wf>흐림</wf>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
@@ -2179,8 +2159,18 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>0</tmn>
 					<tmx>7</tmx>
@@ -2201,9 +2191,19 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>1</tmn>
 					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2218,26 +2218,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>4</tmn>
-					<tmx>8</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>8</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-3</tmn>
@@ -2260,8 +2240,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
+					<tmn>-3</tmn>
+					<tmx>8</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2270,8 +2250,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
+					<tmn>-3</tmn>
+					<tmx>8</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2280,8 +2260,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2290,9 +2270,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>7</tmx>
-					<reliability>낮음</reliability>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
 				</data>
 
 				
@@ -2301,7 +2281,7 @@
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>1</tmn>
-					<tmx>7</tmx>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2311,6 +2291,26 @@
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>1</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2318,9 +2318,9 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-12-14 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
+					<tmEf>2016-12-15 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>0</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2328,8 +2328,8 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-12-15 00:00</tmEf>
-					<wf>맑음</wf>
+					<tmEf>2016-12-16 00:00</tmEf>
+					<wf>구름조금</wf>
 					<tmn>-2</tmn>
 					<tmx>5</tmx>
 					<reliability>보통</reliability>
@@ -2338,7 +2338,7 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-12-16 00:00</tmEf>
+					<tmEf>2016-12-17 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>-1</tmn>
 					<tmx>6</tmx>
@@ -2354,29 +2354,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-7</tmn>
 					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2386,7 +2366,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-7</tmn>
 					<tmx>5</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2397,7 +2377,7 @@
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-6</tmn>
-					<tmx>6</tmx>
+					<tmx>7</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2407,7 +2387,7 @@
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-6</tmn>
-					<tmx>6</tmx>
+					<tmx>7</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2417,7 +2397,7 @@
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>-5</tmn>
-					<tmx>6</tmx>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2427,8 +2407,8 @@
 					<tmEf>2016-12-12 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-5</tmn>
-					<tmx>6</tmx>
-					<reliability>낮음</reliability>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
 				</data>
 
 				
@@ -2436,7 +2416,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
+					<tmn>-2</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2446,7 +2426,27 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-1</tmn>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
+					<tmx>6</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
 					<tmx>6</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2454,19 +2454,9 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-12-14 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>5</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
 					<tmEf>2016-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
+					<wf>구름조금</wf>
+					<tmn>-2</tmn>
 					<tmx>5</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2476,7 +2466,17 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>-5</tmn>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>-3</tmn>
 					<tmx>5</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2490,29 +2490,9 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>흐리고 비/눈</wf>
-					<tmn>5</tmn>
-					<tmx>9</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>9</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
+					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2522,7 +2502,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
+					<tmn>-1</tmn>
 					<tmx>7</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2532,7 +2512,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
+					<tmn>-1</tmn>
 					<tmx>9</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2542,7 +2522,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
+					<tmn>-1</tmn>
 					<tmx>9</tmx>
 					<reliability>높음</reliability>
 				</data>
@@ -2552,8 +2532,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
+					<tmn>1</tmn>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2562,9 +2542,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>9</tmx>
-					<reliability>낮음</reliability>
+					<tmn>1</tmn>
+					<tmx>11</tmx>
+					<reliability>보통</reliability>
 				</data>
 
 				
@@ -2573,7 +2553,7 @@
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>4</tmn>
-					<tmx>8</tmx>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2583,6 +2563,26 @@
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>4</tmn>
+					<tmx>11</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>2</tmn>
 					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2590,20 +2590,10 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2016-12-14 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>7</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
 					<tmEf>2016-12-15 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
+					<wf>구름조금</wf>
+					<tmn>3</tmn>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2612,7 +2602,17 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>0</tmn>
+					<tmn>1</tmn>
+					<tmx>5</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>2</tmn>
 					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2628,30 +2628,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>11</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>11</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<tmx>10</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2661,7 +2641,7 @@
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<tmx>10</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2671,7 +2651,7 @@
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>1</tmn>
-					<tmx>10</tmx>
+					<tmx>11</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2681,7 +2661,7 @@
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>1</tmn>
-					<tmx>10</tmx>
+					<tmx>11</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2690,8 +2670,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2700,9 +2680,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>11</tmx>
-					<reliability>낮음</reliability>
+					<tmn>3</tmn>
+					<tmx>12</tmx>
+					<reliability>보통</reliability>
 				</data>
 
 				
@@ -2719,7 +2699,7 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>4</tmn>
 					<tmx>11</tmx>
 					<reliability>보통</reliability>
@@ -2727,11 +2707,21 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>2</tmn>
+					<tmx>9</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>2</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2740,8 +2730,8 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2750,8 +2740,18 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
+					<tmn>0</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
 					<tmn>2</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2764,30 +2764,10 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>8</tmx>
+					<tmn>-1</tmn>
+					<tmx>9</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2796,8 +2776,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-10 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>8</tmx>
+					<tmn>-1</tmn>
+					<tmx>9</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2806,8 +2786,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2816,8 +2796,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2826,8 +2806,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>1</tmn>
-					<tmx>10</tmx>
+					<tmn>0</tmn>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2836,9 +2816,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>10</tmx>
-					<reliability>낮음</reliability>
+					<tmn>0</tmn>
+					<tmx>11</tmx>
+					<reliability>보통</reliability>
 				</data>
 
 				
@@ -2855,7 +2835,7 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
-					<wf>구름조금</wf>
+					<wf>구름많음</wf>
 					<tmn>2</tmn>
 					<tmx>10</tmx>
 					<reliability>보통</reliability>
@@ -2863,11 +2843,21 @@
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2876,8 +2866,8 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>8</tmx>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2886,8 +2876,18 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
 					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2900,26 +2900,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>0</tmn>
@@ -2943,7 +2923,7 @@
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>0</tmn>
-					<tmx>9</tmx>
+					<tmx>10</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2953,7 +2933,7 @@
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>0</tmn>
-					<tmx>9</tmx>
+					<tmx>10</tmx>
 					<reliability>높음</reliability>
 				</data>
 
@@ -2962,8 +2942,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 00:00</tmEf>
 					<wf>구름조금</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
+					<tmn>1</tmn>
+					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -2972,9 +2952,9 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>9</tmx>
-					<reliability>낮음</reliability>
+					<tmn>1</tmn>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
 				</data>
 
 				
@@ -2982,7 +2962,7 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
+					<tmn>3</tmn>
 					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -2991,19 +2971,29 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
-					<wf>구름조금</wf>
-					<tmn>2</tmn>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
 					<tmx>10</tmx>
 					<reliability>보통</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>구름조금</wf>
+					<tmn>1</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -3012,8 +3002,8 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-15 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>8</tmx>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -3022,8 +3012,18 @@
 					<mode>A01</mode>
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름조금</wf>
+					<tmn>-1</tmn>
+					<tmx>7</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름조금</wf>
 					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -3038,26 +3038,6 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>11</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>11</tmx>
-					<reliability>보통</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2016-12-10 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>6</tmn>
@@ -3081,7 +3061,7 @@
 					<tmEf>2016-12-11 00:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -3091,7 +3071,7 @@
 					<tmEf>2016-12-11 12:00</tmEf>
 					<wf>구름조금</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -3109,7 +3089,7 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>흐림</wf>
 					<tmn>6</tmn>
 					<tmx>13</tmx>
 					<reliability>낮음</reliability>
@@ -3120,8 +3100,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>9</tmx>
+					<tmn>8</tmn>
+					<tmx>10</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
@@ -3130,15 +3110,25 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>9</tmx>
+					<tmn>8</tmn>
+					<tmx>10</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>5</tmn>
 					<tmx>8</tmx>
@@ -3161,7 +3151,17 @@
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>6</tmn>
-					<tmx>11</tmx>
+					<tmx>8</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>8</tmx>
 					<reliability>보통</reliability>
 				</data>
 
@@ -3171,26 +3171,6 @@
 		<location wl_ver="3">
 				<province>제주도</province>
 				<city>서귀포</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>13</tmx>
-					<reliability>낮음</reliability>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2016-12-09 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>13</tmx>
-					<reliability>보통</reliability>
-				</data>
-
 				
 				<data>
 					<mode>A02</mode>
@@ -3245,7 +3225,7 @@
 				<data>
 					<mode>A02</mode>
 					<tmEf>2016-12-12 12:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>흐림</wf>
 					<tmn>7</tmn>
 					<tmx>14</tmx>
 					<reliability>낮음</reliability>
@@ -3256,8 +3236,8 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>12</tmx>
+					<tmn>9</tmn>
+					<tmx>13</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
@@ -3266,17 +3246,27 @@
 					<mode>A02</mode>
 					<tmEf>2016-12-13 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>12</tmx>
+					<tmn>9</tmn>
+					<tmx>13</tmx>
 					<reliability>낮음</reliability>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2016-12-14 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<tmn>6</tmn>
+					<tmx>11</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2016-12-14 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
 					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
@@ -3297,7 +3287,17 @@
 					<tmEf>2016-12-16 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>6</tmn>
-					<tmx>12</tmx>
+					<tmx>10</tmx>
+					<reliability>보통</reliability>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2016-12-17 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>11</tmx>
 					<reliability>보통</reliability>
 				</data>
 
