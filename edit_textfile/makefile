@@ -1,6 +1,14 @@
-output : weather_file
-	./weather_text weather_file
+objects = seoul.o gyeongsang.o jeonla.o chungcheong.o jeju.o kangwon.o
+com = -fPIC
+dir = ~/Desktop/weather/swproject/edit_textfile
+library = libfuncs.a
+.PHONY: clean
 
-weather_file :
-	wget -O weather_file http://www.kma.go.kr/weather/forecast/mid-term-rss3.jsp?stnId=108
+$(library): $(objects)
+	ar rv $(library) $(objects)
 
+%.o: %.c
+	gcc -g -Wall -c $^ -o $@
+
+clean:
+	rm $(dir)/*.o
