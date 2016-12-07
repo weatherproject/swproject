@@ -1,5 +1,5 @@
 #include <gtk/gtk.h>
-typedef struct
+extern typedef struct
 {
 	GtkWidget *entry, *textview;
 	char *text_out;
@@ -21,5 +21,10 @@ extern GtkWidget *window, *scrolled_win, *hbox_city,*hbox_day,*hbox_time, *vbox,
 extern GtkWidget *label;
 extern GtkWidget *button;
 
+//extern const gchar *city;
+//extern const gchar *day;
 extern const gchar *city;
 extern const gchar *day;
+extern int a_am,b_am,c_am;
+extern int a_pm,b_pm,c_pm;
+//extern char *c="hello";
