@@ -11,12 +11,12 @@ extern struct city{
 extern struct city seoul[4][2][10];
 extern struct city kangwon[4][2][10];
 extern struct city chungcheong[4][2][10];
-
+extern struct city jeonla[4][2][10];
 
 int changeseoul();
 int changekangwon();
 int changechungcheong();
-
+int changejeonla();
 
 
 
