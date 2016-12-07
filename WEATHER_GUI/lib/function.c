@@ -1,4 +1,8 @@
 #include <gtk/gtk.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "change.h"
 typedef struct
 {
 	GtkWidget *entry, *textview;
@@ -11,10 +15,14 @@ GtkWidget *window, *scrolled_win, *hbox_city,*hbox_day,*hbox_time, *vbox, *inser
 GtkWidget *label;
 GtkWidget *button;
 
+//const gchar *city;
+//const gchar *day;
 const gchar *city;
 const gchar *day;
-	
-
+//const gchar *c="hello";	
+//const gchar *compare="서울";
+int a_am,b_am,c_am;
+int a_pm,b_pm,c_pm;
 
 void city_set();
 void city_text (GtkButton *button,Widgets *w);
@@ -98,10 +106,19 @@ void day_text(GtkButton *button,Widgets *w)
 /*if click am button, button_am function run*/
 void button_am (GtkButton *button,Widgets *w)
 {
+
+	int i;
+	int flag;
 	GtkTextBuffer *buffer;
 	GtkTextMark *mark;
 	GtkTextIter iter;
 	const gchar *text;
+	changeseoul();
+	changekangwon();
+	changechungcheong();
+	changejeonla();
+	changegyeongsang();
+	changejeju();
 	/*i don know exactly*/
 	buffer = gtk_text_view_get_buffer
 	(GTK_TEXT_VIEW (w->textview));
@@ -110,45 +127,525 @@ void button_am (GtkButton *button,Widgets *w)
 	mark = gtk_text_buffer_get_insert (buffer);
 	gtk_text_buffer_get_iter_at_mark (buffer, &iter, mark);
 	/*print to textwindow  */
-	text=city;
-	gtk_text_buffer_insert (buffer, &iter, text, -1);
-	text=" ";
-	gtk_text_buffer_insert (buffer, &iter, text, -1);
-	text=day;
-	gtk_text_buffer_insert (buffer, &iter, text, -1);
-	text="후의 오전 날씨:";
-	gtk_text_buffer_insert (buffer, &iter, text, -1);	
+	printf("city: %s\n", city);
+	printf("day: %s\n", day);
+	//printf("compare : %s \n",compare);
+	for(i=0;i<5;i++)
+	{
+		if(!(strcmp(seoul[i][0][0].name,city)))
+		{
+			a_am=i;
+		//	printf("a=%d\n",a);
+			flag=0;
+		}
+	}
+	for(i=0;i<4;i++)
+	{
+		if(!(strcmp(kangwon[i][0][0].name,city)))
+		{
+			a_am=i;
+		//	printf("a=%d\n",a);
+			flag=1;
+		}
+	}
+	for(i=0;i<5;i++)
+	{
+		if(!(strcmp(chungcheong[i][0][0].name,city)))
+		{
+			a_am=i;
+		//	printf("a=%d\n",a);
+			flag=2;
+		}
+	}
+	for(i=0;i<6;i++)
+	{
+		if(!(strcmp(jeonla[i][0][0].name,city)))
+		{
+			a_am=i;
+		//	printf("a=%d\n",a);
+			flag=3;
+		}
+	}
+	for(i=0;i<7;i++)
+	{
+		if(!(strcmp(gyeongsang[i][0][0].name,city)))
+		{
+			a_am=i;
+		//	printf("a=%d\n",a);
+			flag=4;
+		}
+	}
+	for(i=0;i<3;i++)
+	{
+		if(!(strcmp(jeju[i][0][0].name,city)))
+		{
+			a_am=i;
+		//	printf("a=%d\n",a);
+			flag=5;
+		}
+	}		
+	if(!(strcmp(day,"2")))
+	{
+		b_am=1;
+		c_am=0;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"3")))
+	{
+		b_am=1;
+		c_am=2;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"4")))
+	{
+		b_am=1;
+		c_am=4;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"5")))
+	{
+		b_am=1;
+		c_am=6;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"6")))
+	{
+		b_am=1;
+		c_am=8;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"7")))
+	{
+		b_am=0;
+		c_am=0;
+		text="하루날씨";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"8")))
+	{
+		b_am=0;
+		c_am=1;
+		text="하루날씨";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"9")))
+	{
+		b_am=0;
+		c_am=2;
+		text="하루날씨";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(flag==0)
+	{
+		text=seoul[a_am][b_am][c_am].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=seoul[a_am][b_am][c_am].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=seoul[a_am][b_am][c_am].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=seoul[a_am][b_am][c_am].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=seoul[a_am][b_am][c_am].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==1)
+	{
+		text=kangwon[a_am][b_am][c_am].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=kangwon[a_am][b_am][c_am].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=kangwon[a_am][b_am][c_am].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=kangwon[a_am][b_am][c_am].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=kangwon[a_am][b_am][c_am].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==2)
+	{
+		text=chungcheong[a_am][b_am][c_am].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=chungcheong[a_am][b_am][c_am].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=chungcheong[a_am][b_am][c_am].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=chungcheong[a_am][b_am][c_am].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=chungcheong[a_am][b_am][c_am].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==3)
+	{
+		text=jeonla[a_am][b_am][c_am].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeonla[a_am][b_am][c_am].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeonla[a_am][b_am][c_am].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeonla[a_am][b_am][c_am].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeonla[a_am][b_am][c_am].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==4)
+	{
+		text=gyeongsang[a_am][b_am][c_am].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=gyeongsang[a_am][b_am][c_am].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=gyeongsang[a_am][b_am][c_am].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=gyeongsang[a_am][b_am][c_am].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=gyeongsang[a_am][b_am][c_am].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==5)
+	{
+		text=jeju[a_am][b_am][c_am].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeju[a_am][b_am][c_am].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeju[a_am][b_am][c_am].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeju[a_am][b_am][c_am].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeju[a_am][b_am][c_am].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	//printf("Entry contents: %s\n", seoul[0][1][6].date);
+	//printf("Entry contents: %s\n", seoul[a][b][c].date);
+
 	//printf("Entry contents: %s\n", w->text_out);
 	//printf("Entry contents: %s\n", text);
 }
-
 
 /*if click pm button, button_pm function run*/
 void button_pm (GtkButton *button,Widgets *w)
 {
+
+	int i;
+	int flag;
 	GtkTextBuffer *buffer;
 	GtkTextMark *mark;
 	GtkTextIter iter;
 	const gchar *text;
+	changeseoul();
+	changekangwon();
+	changechungcheong();
+	changejeonla();
+	changegyeongsang();
+	changejeju();
 	/*i don know exactly*/
 	buffer = gtk_text_view_get_buffer
 	(GTK_TEXT_VIEW (w->textview));
 	text = gtk_entry_get_text (GTK_ENTRY (w->entry));
-	
+
 	mark = gtk_text_buffer_get_insert (buffer);
 	gtk_text_buffer_get_iter_at_mark (buffer, &iter, mark);
 	/*print to textwindow  */
-	text=city;
-	gtk_text_buffer_insert (buffer, &iter, text, -1);
-	text=" ";
-	gtk_text_buffer_insert (buffer, &iter, text, -1);
-	text=day;
-	gtk_text_buffer_insert (buffer, &iter, text, -1);
-	text="후의 오후 날씨:";
-	gtk_text_buffer_insert (buffer, &iter, text, -1);
-	//printf("Entry contents: %s\n", w->text_out);
-	//printf("Entry contents: %s\n", text);
+	printf("city: %s\n", city);
+	printf("day: %s\n", day);
+	//printf("compare : %s \n",compare);
+	for(i=0;i<5;i++)
+	{
+		if(!(strcmp(seoul[i][0][0].name,city)))
+		{
+			a_pm=i;
+	//		printf("a=%d\n",a);
+			flag=0;
+		}
+	}
+	for(i=0;i<4;i++)
+	{
+		if(!(strcmp(kangwon[i][0][0].name,city)))
+		{
+			a_pm=i;
+	//		printf("a=%d\n",a);
+			flag=1;
+		}
+	}
+	for(i=0;i<5;i++)
+	{
+		if(!(strcmp(chungcheong[i][0][0].name,city)))
+		{
+			a_pm=i;
+	//		printf("a=%d\n",a);
+			flag=2;
+		}
+	}
+	for(i=0;i<6;i++)
+	{
+		if(!(strcmp(jeonla[i][0][0].name,city)))
+		{
+			a_pm=i;
+	//		printf("a=%d\n",a);
+			flag=3;
+		}
+	}
+	for(i=0;i<7;i++)
+	{
+		if(!(strcmp(gyeongsang[i][0][0].name,city)))
+		{
+			a_pm=i;
+	//		printf("a=%d\n",a);
+			flag=4;
+		}
+	}
+	for(i=0;i<3;i++)
+	{
+		if(!(strcmp(jeju[i][0][0].name,city)))
+		{
+			a_pm=i;
+	//		printf("a=%d\n",a);
+			flag=5;
+		}
+	}		
+	if(!(strcmp(day,"2")))
+	{
+		b_pm=1;
+		c_pm=1;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"3")))
+	{
+		b_pm=1;
+		c_pm=3;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"4")))
+	{
+		b_pm=1;
+		c_pm=5;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"5")))
+	{
+		b_pm=1;
+		c_pm=7;
+	///	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"6")))
+	{
+		b_pm=1;
+		c_pm=9;
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"7")))
+	{
+		b_pm=0;
+		c_pm=0;
+		text="하루날씨";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"8")))
+	{
+		b_pm=0;
+		c_pm=1;
+		text="하루날씨";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(!(strcmp(day,"9")))
+	{
+		b_pm=0;
+		c_pm=2;
+		text="하루날씨";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	//	printf("b,c%d,%d\n",b,c);
+	}
+	if(flag==0)
+	{
+		text=seoul[a_pm][b_pm][c_pm].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=seoul[a_pm][b_pm][c_pm].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=seoul[a_pm][b_pm][c_pm].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=seoul[a_pm][b_pm][c_pm].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=seoul[a_pm][b_pm][c_pm].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==1)
+	{
+		text=kangwon[a_pm][b_pm][c_pm].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=kangwon[a_pm][b_pm][c_pm].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=kangwon[a_pm][b_pm][c_pm].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=kangwon[a_pm][b_pm][c_pm].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=kangwon[a_pm][b_pm][c_pm].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==2)
+	{
+		text=chungcheong[a_pm][b_pm][c_pm].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=chungcheong[a_pm][b_pm][c_pm].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=chungcheong[a_pm][b_pm][c_pm].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=chungcheong[a_pm][b_pm][c_pm].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=chungcheong[a_pm][b_pm][c_pm].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==3)
+	{
+		text=jeonla[a_pm][b_pm][c_pm].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeonla[a_pm][b_pm][c_pm].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeonla[a_pm][b_pm][c_pm].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeonla[a_pm][b_pm][c_pm].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeonla[a_pm][b_pm][c_pm].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==4)
+	{
+		text=gyeongsang[a_pm][b_pm][c_pm].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=gyeongsang[a_pm][b_pm][c_pm].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=gyeongsang[a_pm][b_pm][c_pm].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=gyeongsang[a_pm][b_pm][c_pm].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=gyeongsang[a_pm][b_pm][c_pm].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
+	else if(flag==5)
+	{
+		text=jeju[a_pm][b_pm][c_pm].name;
+
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeju[a_pm][b_pm][c_pm].date;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeju[a_pm][b_pm][c_pm].time;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeju[a_pm][b_pm][c_pm].weather;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=" ";
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+		text=jeju[a_pm][b_pm][c_pm].condition;
+		gtk_text_buffer_insert (buffer, &iter, text, -1);
+	}
 }
+
 void window_setting()
 {
 	/*create window*/
