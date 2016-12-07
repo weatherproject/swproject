@@ -1,4 +1,4 @@
-DIRs = weather_textfile edit_textfile main
+DIRs = weather_textfile edit_textfile main_gtk
 .PHONY: all clean
 
 all:
