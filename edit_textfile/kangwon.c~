@@ -68,7 +68,7 @@ int changekangwon()
 						{
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].time);
-							fgets(kangwon[flag][1][i].weather,15,fp);
+							fgets(kangwon[flag][1][i].weather,18,fp);
 							//fscanf(fp,"%s \n",&A02[i].weather);
 							fscanf(fp,"%d \n",&kangwon[flag][1][i].temp);
 							fscanf(fp,"%d \n",&kangwon[flag][1][i].temp_max);
@@ -82,7 +82,7 @@ int changekangwon()
 						{
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].time);
-							fgets(kangwon[flag][0][i].weather,15,fp);
+							fgets(kangwon[flag][0][i].weather,18,fp);
 							//fscanf(fp,"%s \n",&A02[i].weather);
 							fscanf(fp,"%d \n",&kangwon[flag][0][i].temp);
 							fscanf(fp,"%d \n",&kangwon[flag][0][i].temp_max);
@@ -107,7 +107,7 @@ int changekangwon()
 						{
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].time);
-							fgets(kangwon[flag][1][i].weather,15,fp);
+							fgets(kangwon[flag][1][i].weather,18,fp);
 							//fscanf(fp,"%s \n",&A02[i].weather);
 							fscanf(fp,"%d \n",&kangwon[flag][1][i].temp);
 							fscanf(fp,"%d \n",&kangwon[flag][1][i].temp_max);
@@ -121,7 +121,7 @@ int changekangwon()
 						{
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].time);
-							fgets(kangwon[flag][0][i].weather,15,fp);
+							fgets(kangwon[flag][0][i].weather,18,fp);
 							//fscanf(fp,"%s \n",&A02[i].weather);
 							fscanf(fp,"%d \n",&kangwon[flag][0][i].temp);
 							fscanf(fp,"%d \n",&kangwon[flag][0][i].temp_max);
@@ -153,7 +153,7 @@ int changekangwon()
 						{
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].time);
-							fgets(kangwon[flag][1][i].weather,15,fp);
+							fgets(kangwon[flag][1][i].weather,18,fp);
 							//fscanf(fp,"%s \n",&A02[i].weather);
 							fscanf(fp,"%d \n",&kangwon[flag][1][i].temp);
 							fscanf(fp,"%d \n",&kangwon[flag][1][i].temp_max);
@@ -167,7 +167,7 @@ int changekangwon()
 						{
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].time);
-							fgets(kangwon[flag][0][i].weather,15,fp);
+							fgets(kangwon[flag][0][i].weather,18,fp);
 							//fscanf(fp,"%s \n",&A02[i].weather);
 							fscanf(fp,"%d \n",&kangwon[flag][0][i].temp);
 							fscanf(fp,"%d \n",&kangwon[flag][0][i].temp_max);

@@ -66,6 +66,7 @@ int changekangwon()
 					{
 						if(strstr(str,"A02"))									//중기날씨 5일
 						{
+							strcpy(kangwon[flag][1][i].name,city_main);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].time);
 							fgets(kangwon[flag][1][i].weather,18,fp);
@@ -80,6 +81,7 @@ int changekangwon()
 					{
 						if(strstr(str,"A01"))
 						{
+							strcpy(kangwon[flag][0][i].name,city_main);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].time);
 							fgets(kangwon[flag][0][i].weather,18,fp);
@@ -105,6 +107,7 @@ int changekangwon()
 					{
 						if(strstr(str,"A02"))									//중기날씨 5일
 						{
+							strcpy(kangwon[flag][1][i].name,city_main);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].time);
 							fgets(kangwon[flag][1][i].weather,18,fp);
@@ -119,6 +122,7 @@ int changekangwon()
 					{
 						if(strstr(str,"A01"))
 						{
+							strcpy(kangwon[flag][0][i].name,city_main);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].time);
 							fgets(kangwon[flag][0][i].weather,18,fp);
@@ -151,6 +155,7 @@ int changekangwon()
 					{
 						if(strstr(str,"A02"))									//중기날씨 5일
 						{
+							strcpy(kangwon[flag][1][i].name,city_main);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][1][i].time);
 							fgets(kangwon[flag][1][i].weather,18,fp);
@@ -165,6 +170,7 @@ int changekangwon()
 					{
 						if(strstr(str,"A01"))
 						{
+							strcpy(kangwon[flag][0][i].name,city_main);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].date);
 							fscanf(fp,"%s \n",&kangwon[flag][0][i].time);
 							fgets(kangwon[flag][0][i].weather,18,fp);

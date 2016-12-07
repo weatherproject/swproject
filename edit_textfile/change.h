@@ -1,4 +1,5 @@
 extern struct city{
+	char name[15];
 	char date[30];
 	char time[10];
 	char weather[18];
