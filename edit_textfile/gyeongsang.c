@@ -7,7 +7,7 @@ struct city gyeongsang[4][2][10]={0,};
 
 int changegyeongsang()
 {
-	char str[500]={0,};
+		char str[500]={0,};
 	char city_name[300];
 	char city_main[200]={'0',};
 	char city_save_name[6][100]={0,};
@@ -60,7 +60,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A02"))									//중기날씨 5일
 						{
-							strcpy(gyeongsang[flag][1][i],city_main);
+							strcpy(gyeongsang[flag][1][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].time);
 							fgets(gyeongsang[flag][1][i].weather,15,fp);
@@ -75,7 +75,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A01"))
 						{
-							strcpy(gyeongsang[flag][0][i],city_main);
+							strcpy(gyeongsang[flag][0][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].time);
 							fgets(gyeongsang[flag][0][i].weather,15,fp);
@@ -92,7 +92,7 @@ int changegyeongsang()
 			}
 			else if(flag==1)
 			{
-				fscanf(fp,"%s \.n",&str);
+				fscanf(fp,"%s \n",&str);
 				strcpy(city_main,str);
 				if(!strcmp(city_main,"안동"))
 				{
@@ -102,7 +102,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A02"))									//중기날씨 5일
 						{
-							strcpy(gyeongsang[flag][1][i],city_main);
+							strcpy(gyeongsang[flag][1][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].time);
 							fgets(gyeongsang[flag][1][i].weather,15,fp);
@@ -117,7 +117,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A01"))
 						{
-							strcpy(gyeongsang[flag][0][i],city_main);
+							strcpy(gyeongsang[flag][0][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].time);
 							fgets(gyeongsang[flag][0][i].weather,15,fp);
@@ -144,7 +144,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A02"))									//중기날씨 5일
 						{
-							strcpy(gyeongsang[flag][1][i],city_main);
+							strcpy(gyeongsang[flag][1][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].time);
 							fgets(gyeongsang[flag][1][i].weather,15,fp);
@@ -159,7 +159,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A01"))
 						{
-							strcpy(gyeongsang[flag][0][i],city_main);
+							strcpy(gyeongsang[flag][0][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].time);
 							fgets(gyeongsang[flag][0][i].weather,15,fp);
@@ -179,7 +179,7 @@ int changegyeongsang()
 		{
 			if(flag==3)
 			{
-				fscanf(fp,"%s \.n",&str);
+				fscanf(fp,"%s \n",&str);
 				strcpy(city_main,str);
 				if(!strcmp(city_main,"부산"))
 				{
@@ -189,7 +189,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A02"))									//중기날씨 5일
 						{
-							strcpy(gyeongsang[flag][1][i],city_main);
+							strcpy(gyeongsang[flag][1][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].time);
 							fgets(gyeongsang[flag][1][i].weather,15,fp);
@@ -204,7 +204,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A01"))
 						{
-							strcpy(gyeongsang[flag][0][i],city_main);
+							strcpy(gyeongsang[flag][0][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].time);
 							fgets(gyeongsang[flag][0][i].weather,15,fp);
@@ -231,7 +231,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A02"))									//중기날씨 5일
 						{
-							strcpy(gyeongsang[flag][1][i],city_main);
+							strcpy(gyeongsang[flag][1][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][1][i].time);
 							fgets(gyeongsang[flag][1][i].weather,15,fp);
@@ -246,7 +246,7 @@ int changegyeongsang()
 					{
 						if(strstr(str,"A01"))
 						{
-							strcpy(gyeongsang[flag][0][i],city_main);
+							strcpy(gyeongsang[flag][0][i].name,city_main);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].date);
 							fscanf(fp,"%s \n",&gyeongsang[flag][0][i].time);
 							fgets(gyeongsang[flag][0][i].weather,15,fp);
@@ -273,7 +273,7 @@ int changegyeongsang()
 						{
 							if(strstr(str,"A02"))									//중기날씨 5일
 							{
-								strcpy(gyeongsang[flag][1][i],city_main);
+								strcpy(gyeongsang[flag][1][i].name,city_main);
 								fscanf(fp,"%s \n",&gyeongsang[flag][1][i].date);
 								fscanf(fp,"%s \n",&gyeongsang[flag][1][i].time);
 								fgets(gyeongsang[flag][1][i].weather,15,fp);
@@ -288,7 +288,7 @@ int changegyeongsang()
 						{
 							if(strstr(str,"A01"))
 							{
-								strcpy(gyeongsang[flag][1][i],city_main);
+								strcpy(gyeongsang[flag][1][i].name,city_main);
 								fscanf(fp,"%s \n",&gyeongsang[flag][0][i].date);
 								fscanf(fp,"%s \n",&gyeongsang[flag][0][i].time);
 								fgets(gyeongsang[flag][0][i].weather,15,fp);
